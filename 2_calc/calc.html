@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Калькулятор</title>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="calc.js"></script>
+	</head>
+	<body>
+		<div id="history">
+		</div>
+		<div>
+			<input type="text" id="calcWindow">
+		</div>
+		<div>
+			<button onclick="putChar(1);">1</button>
+			<button onclick="putChar(2);">2</button>
+			<button onclick="putChar(3);">3</button>
+			<button onclick="putChar('+');">+</button>
+		</div>
+		<div>
+			<button onclick="putChar(4);">4</button>
+			<button onclick="putChar(5);">5</button>
+			<button onclick="putChar(6);">6</button>
+			<button onclick="putChar('-');">-</button>
+		</div>
+		<div>
+			<button onclick="putChar(7);">7</button>
+			<button onclick="putChar(8);">8</button>
+			<button onclick="putChar(9);">9</button>
+			<button onclick="putChar('*');">*</button>
+		</div>
+		<div>
+
+			<button onclick="putChar('.');">.</button>
+			<button onclick="putChar(0);">0</button>
+			<button onclick="calcInput();">=</button>
+			<button onclick="putChar('/');">/</button>
+		</div>
+	</body>
+</html>
